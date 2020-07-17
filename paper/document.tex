@@ -1,0 +1,68 @@
+\documentclass[12pt]{article}    % Add "draft" option for draft mode
+\usepackage[paper=a4paper, top=30mm, bottom=30mm]{geometry}
+
+% Font and encoding
+\usepackage{lmodern}           % Better computer modern font
+\usepackage[T1]{fontenc}       % Better glyph encoding
+\usepackage[utf8]{inputenc}    % Necessary for unicode characters (sometimes automatically loaded)
+\usepackage[english]{babel}    % Necessary for correct hyphenation
+\usepackage{textcomp}          % Necessary to display unicode characters like €
+\usepackage{csquotes}          % For handling quotes correctly (\MakeOuterQuote{"})
+
+% Other packages
+\usepackage[style=alphabetic]{biblatex}    % Bibliography
+\usepackage[parfill]{parskip}              % Add space between paragraphs
+\usepackage[hidelinks]{hyperref}           % Clickable \ref and \cite
+\usepackage{graphicx}                      % Needed for figures
+\usepackage{booktabs}                      % Needed for tables
+\usepackage{caption}                       % Needed for captionsetup
+\usepackage{subcaption}                    % Needed for subfigure and subtable
+\usepackage{amsmath}                       % Better math environments and \text
+\usepackage{physics}                       % e.g. for derivative formatting
+\usepackage{siunitx}                       % \si{\unit} and \SI{value}{\unit}
+\usepackage{titlesec}                      % Needed for titleformat
+\usepackage{authblk}                       % Authors formatting
+
+% Setup
+\MakeOuterQuote{"}
+% \setcounter{secnumdepth}{0}
+% \titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter}{20pt}{}
+% \setlength{\parskip}{.5\baselineskip}
+% \setlength\parindent{0pt}
+\captionsetup{width=.9\linewidth}
+% \captionsetup[subfigure]{width=.9\linewidth}
+\addbibresource{bib.bib}
+
+\title{Layer }
+\author[1]{\textbf{Onno Eberhard}}
+\author[ ]{\textbf{Torsten Zesch}}
+\affil[ ]{Language Technology Lab}
+\affil[ ]{University of Duisburg-Essen}
+\affil[1]{\texttt{onnoeberhard@gmail.com}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Here is where I would say what is in this document.
+\end{abstract}
+
+\section{Introduction}
+\cite{agarwal-zesch-2019-german}
+
+\section{Training}
+\cite{Radeck-Arneth2015}
+\cite{heafield-2011-kenlm}
+
+\section{Results}
+
+% \section{Further Experiments}
+
+\section{Next Steps}
+% Polyglot
+
+Citing \cite{agarwal-zesch-2019-german} here.
+
+\printbibliography
+
+\end{document}

@@ -1,0 +1,157 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{agarwal-zesch-2019-german}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5a55e687cf1a20af93e76e899898566a}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Aashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d2bddcda907ea93d3a82a0623d8d0930}{%
+           family={Zesch},
+           familyi={Z\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Erlangen, Germany}%
+      }
+      \list{publisher}{1}{%
+        {German Society for Computational Linguistics \& Language Technology}%
+      }
+      \strng{namehash}{0541d82e520823783eda68de679acad5}
+      \strng{fullhash}{0541d82e520823783eda68de679acad5}
+      \strng{bibnamehash}{0541d82e520823783eda68de679acad5}
+      \strng{authorbibnamehash}{0541d82e520823783eda68de679acad5}
+      \strng{authornamehash}{0541d82e520823783eda68de679acad5}
+      \strng{authorfullhash}{0541d82e520823783eda68de679acad5}
+      \field{labelalpha}{AZ19}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 15th Conference on Natural Language Processing (KONVENS 2019): Long Papers}
+      \field{title}{German End-to-end Speech Recognition based on DeepSpeech}
+      \field{year}{2019}
+      \field{pages}{111\bibrangedash 119}
+      \range{pages}{9}
+    \endentry
+    \entry{heafield-2011-kenlm}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=7335b523d68241b7785091b15c243eac}{%
+           family={Heafield},
+           familyi={H\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Edinburgh, Scotland}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{7335b523d68241b7785091b15c243eac}
+      \strng{fullhash}{7335b523d68241b7785091b15c243eac}
+      \strng{bibnamehash}{7335b523d68241b7785091b15c243eac}
+      \strng{authorbibnamehash}{7335b523d68241b7785091b15c243eac}
+      \strng{authornamehash}{7335b523d68241b7785091b15c243eac}
+      \strng{authorfullhash}{7335b523d68241b7785091b15c243eac}
+      \field{labelalpha}{Hea11}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Sixth Workshop on Statistical Machine Translation}
+      \field{month}{7}
+      \field{title}{{K}en{LM}: Faster and Smaller Language Model Queries}
+      \field{year}{2011}
+      \field{pages}{187\bibrangedash 197}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://www.aclweb.org/anthology/W11-2123
+      \endverb
+      \verb{url}
+      \verb https://www.aclweb.org/anthology/W11-2123
+      \endverb
+    \endentry
+    \entry{Radeck-Arneth2015}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=19cbeed35990942ce0a0a4d3267d818f}{%
+           family={Radeck-Arneth},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b9acf70dd0580d2b9b0784601833e6ec}{%
+           family={Milde},
+           familyi={M\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e69f3e3c4047cf229b21c299eff7ede9}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Arvid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3c5f52e57bad7ac3edbf74925b0979da}{%
+           family={Gouvea},
+           familyi={G\bibinitperiod},
+           given={Evandro},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5e10ce2999fd03ca250ec50bd64bf207}{%
+           family={Radomski},
+           familyi={R\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a6423b5065b794a670038ce1a2ec62ab}{%
+           family={M{ü}hlh{ä}user},
+           familyi={M\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=786eca9f4966307b17cae6c3bba98905}{%
+           family={Biemann},
+           familyi={B\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Pilsen, Czech Republic}%
+      }
+      \strng{namehash}{6ea5291f84c9b7631cc9979fac971706}
+      \strng{fullhash}{28e91b17b0ddfbcde1c8140e680d31a1}
+      \strng{bibnamehash}{6ea5291f84c9b7631cc9979fac971706}
+      \strng{authorbibnamehash}{6ea5291f84c9b7631cc9979fac971706}
+      \strng{authornamehash}{6ea5291f84c9b7631cc9979fac971706}
+      \strng{authorfullhash}{28e91b17b0ddfbcde1c8140e680d31a1}
+      \field{labelalpha}{Rad+15}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings Text, Speech and Dialogue (TSD)}
+      \field{title}{{Open Source German Distant Speech Recognition: Corpus and Acoustic Model}}
+      \field{year}{2015}
+      \field{pages}{480\bibrangedash 488}
+      \range{pages}{9}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

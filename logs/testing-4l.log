@@ -1,0 +1,244 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-734496
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on common_voice/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:05
+Test epoch | Steps: 2 | Elapsed Time: 0:00:05
+Test epoch | Steps: 3 | Elapsed Time: 0:00:06
+Test epoch | Steps: 4 | Elapsed Time: 0:00:06
+Test epoch | Steps: 5 | Elapsed Time: 0:00:07
+Test epoch | Steps: 6 | Elapsed Time: 0:00:08
+Test epoch | Steps: 7 | Elapsed Time: 0:00:08
+Test epoch | Steps: 8 | Elapsed Time: 0:00:09
+Test epoch | Steps: 9 | Elapsed Time: 0:00:09
+Test epoch | Steps: 10 | Elapsed Time: 0:00:10
+Test epoch | Steps: 11 | Elapsed Time: 0:00:11
+Test epoch | Steps: 12 | Elapsed Time: 0:00:11
+Test epoch | Steps: 13 | Elapsed Time: 0:00:12
+Test epoch | Steps: 14 | Elapsed Time: 0:00:12
+Test epoch | Steps: 15 | Elapsed Time: 0:00:13
+Test epoch | Steps: 16 | Elapsed Time: 0:00:14
+Test epoch | Steps: 17 | Elapsed Time: 0:00:14
+Test epoch | Steps: 18 | Elapsed Time: 0:00:15
+Test epoch | Steps: 19 | Elapsed Time: 0:00:16
+Test epoch | Steps: 20 | Elapsed Time: 0:00:16
+Test epoch | Steps: 21 | Elapsed Time: 0:00:17
+Test epoch | Steps: 22 | Elapsed Time: 0:00:18
+Test epoch | Steps: 23 | Elapsed Time: 0:00:19
+Test epoch | Steps: 24 | Elapsed Time: 0:00:20
+Test epoch | Steps: 25 | Elapsed Time: 0:00:20
+Test epoch | Steps: 26 | Elapsed Time: 0:00:21
+Test epoch | Steps: 27 | Elapsed Time: 0:00:22
+Test epoch | Steps: 28 | Elapsed Time: 0:00:23
+Test epoch | Steps: 29 | Elapsed Time: 0:00:23
+Test epoch | Steps: 30 | Elapsed Time: 0:00:24
+Test epoch | Steps: 31 | Elapsed Time: 0:00:25
+Test epoch | Steps: 32 | Elapsed Time: 0:00:26
+Test epoch | Steps: 33 | Elapsed Time: 0:00:26
+Test epoch | Steps: 34 | Elapsed Time: 0:00:27
+Test epoch | Steps: 35 | Elapsed Time: 0:00:28
+Test epoch | Steps: 36 | Elapsed Time: 0:00:29
+Test epoch | Steps: 37 | Elapsed Time: 0:00:29
+Test epoch | Steps: 38 | Elapsed Time: 0:00:30
+Test epoch | Steps: 39 | Elapsed Time: 0:00:31
+Test epoch | Steps: 40 | Elapsed Time: 0:00:32
+Test epoch | Steps: 41 | Elapsed Time: 0:00:33
+Test epoch | Steps: 42 | Elapsed Time: 0:00:34
+Test epoch | Steps: 43 | Elapsed Time: 0:00:35
+Test epoch | Steps: 44 | Elapsed Time: 0:00:35
+Test epoch | Steps: 45 | Elapsed Time: 0:00:36
+Test epoch | Steps: 46 | Elapsed Time: 0:00:37
+Test epoch | Steps: 47 | Elapsed Time: 0:00:38
+Test epoch | Steps: 48 | Elapsed Time: 0:00:39
+Test epoch | Steps: 49 | Elapsed Time: 0:00:40
+Test epoch | Steps: 50 | Elapsed Time: 0:00:40
+Test epoch | Steps: 51 | Elapsed Time: 0:00:41
+Test epoch | Steps: 52 | Elapsed Time: 0:00:42
+Test epoch | Steps: 53 | Elapsed Time: 0:00:43
+Test epoch | Steps: 54 | Elapsed Time: 0:00:44
+Test epoch | Steps: 55 | Elapsed Time: 0:00:45
+Test epoch | Steps: 56 | Elapsed Time: 0:00:46
+Test epoch | Steps: 57 | Elapsed Time: 0:00:47
+Test epoch | Steps: 58 | Elapsed Time: 0:00:48
+Test epoch | Steps: 59 | Elapsed Time: 0:00:49
+Test epoch | Steps: 60 | Elapsed Time: 0:00:50
+Test epoch | Steps: 61 | Elapsed Time: 0:00:51
+Test epoch | Steps: 62 | Elapsed Time: 0:00:52
+Test epoch | Steps: 63 | Elapsed Time: 0:00:53
+Test epoch | Steps: 64 | Elapsed Time: 0:00:54
+Test epoch | Steps: 65 | Elapsed Time: 0:00:55
+Test epoch | Steps: 66 | Elapsed Time: 0:00:56
+Test epoch | Steps: 67 | Elapsed Time: 0:00:57
+Test epoch | Steps: 68 | Elapsed Time: 0:00:58
+Test epoch | Steps: 69 | Elapsed Time: 0:00:59
+Test epoch | Steps: 70 | Elapsed Time: 0:01:00
+Test epoch | Steps: 71 | Elapsed Time: 0:01:01
+Test epoch | Steps: 72 | Elapsed Time: 0:01:02
+Test epoch | Steps: 73 | Elapsed Time: 0:01:03
+Test epoch | Steps: 74 | Elapsed Time: 0:01:04
+Test epoch | Steps: 75 | Elapsed Time: 0:01:05
+Test epoch | Steps: 76 | Elapsed Time: 0:01:06
+Test epoch | Steps: 77 | Elapsed Time: 0:01:08
+Test epoch | Steps: 78 | Elapsed Time: 0:01:09
+Test epoch | Steps: 79 | Elapsed Time: 0:01:10
+Test epoch | Steps: 80 | Elapsed Time: 0:01:11
+Test epoch | Steps: 81 | Elapsed Time: 0:01:12
+Test epoch | Steps: 82 | Elapsed Time: 0:01:13
+Test epoch | Steps: 83 | Elapsed Time: 0:01:14
+Test epoch | Steps: 84 | Elapsed Time: 0:01:15
+Test epoch | Steps: 85 | Elapsed Time: 0:01:16
+Test epoch | Steps: 86 | Elapsed Time: 0:01:17
+Test epoch | Steps: 87 | Elapsed Time: 0:01:18
+Test epoch | Steps: 88 | Elapsed Time: 0:01:19
+Test epoch | Steps: 89 | Elapsed Time: 0:01:20
+Test epoch | Steps: 90 | Elapsed Time: 0:01:21
+Test epoch | Steps: 91 | Elapsed Time: 0:01:22
+Test epoch | Steps: 92 | Elapsed Time: 0:01:24
+Test epoch | Steps: 93 | Elapsed Time: 0:01:25
+Test epoch | Steps: 94 | Elapsed Time: 0:01:26
+Test epoch | Steps: 95 | Elapsed Time: 0:01:27
+Test epoch | Steps: 96 | Elapsed Time: 0:01:29
+Test epoch | Steps: 97 | Elapsed Time: 0:01:30
+Test epoch | Steps: 98 | Elapsed Time: 0:01:31
+Test epoch | Steps: 99 | Elapsed Time: 0:01:33
+Test epoch | Steps: 100 | Elapsed Time: 0:01:34
+Test epoch | Steps: 101 | Elapsed Time: 0:01:35
+Test epoch | Steps: 102 | Elapsed Time: 0:01:36
+Test epoch | Steps: 103 | Elapsed Time: 0:01:38
+Test epoch | Steps: 104 | Elapsed Time: 0:01:39
+Test epoch | Steps: 105 | Elapsed Time: 0:01:40
+Test epoch | Steps: 106 | Elapsed Time: 0:01:41
+Test epoch | Steps: 107 | Elapsed Time: 0:01:43
+Test epoch | Steps: 108 | Elapsed Time: 0:01:44
+Test epoch | Steps: 109 | Elapsed Time: 0:01:45
+Test epoch | Steps: 110 | Elapsed Time: 0:01:47
+Test epoch | Steps: 111 | Elapsed Time: 0:01:48
+Test epoch | Steps: 112 | Elapsed Time: 0:01:49
+Test epoch | Steps: 113 | Elapsed Time: 0:01:50
+Test epoch | Steps: 114 | Elapsed Time: 0:01:51
+Test epoch | Steps: 115 | Elapsed Time: 0:01:53
+Test epoch | Steps: 116 | Elapsed Time: 0:01:54
+Test epoch | Steps: 117 | Elapsed Time: 0:01:55
+Test epoch | Steps: 118 | Elapsed Time: 0:01:56
+Test epoch | Steps: 119 | Elapsed Time: 0:01:57
+Test epoch | Steps: 120 | Elapsed Time: 0:01:59
+Test epoch | Steps: 121 | Elapsed Time: 0:02:00
+Test epoch | Steps: 122 | Elapsed Time: 0:02:01
+Test epoch | Steps: 123 | Elapsed Time: 0:02:03
+Test epoch | Steps: 124 | Elapsed Time: 0:02:04
+Test epoch | Steps: 125 | Elapsed Time: 0:02:05
+Test epoch | Steps: 126 | Elapsed Time: 0:02:06
+Test epoch | Steps: 127 | Elapsed Time: 0:02:08
+Test epoch | Steps: 128 | Elapsed Time: 0:02:09
+Test epoch | Steps: 129 | Elapsed Time: 0:02:11
+Test epoch | Steps: 130 | Elapsed Time: 0:02:12
+Test epoch | Steps: 131 | Elapsed Time: 0:02:14
+Test epoch | Steps: 132 | Elapsed Time: 0:02:15
+Test epoch | Steps: 133 | Elapsed Time: 0:02:17
+Test epoch | Steps: 134 | Elapsed Time: 0:02:19
+Test epoch | Steps: 135 | Elapsed Time: 0:02:20
+Test epoch | Steps: 136 | Elapsed Time: 0:02:22
+Test epoch | Steps: 137 | Elapsed Time: 0:02:24
+Test epoch | Steps: 138 | Elapsed Time: 0:02:25
+Test epoch | Steps: 139 | Elapsed Time: 0:02:27
+Test epoch | Steps: 140 | Elapsed Time: 0:02:29
+Test epoch | Steps: 141 | Elapsed Time: 0:02:31
+Test epoch | Steps: 142 | Elapsed Time: 0:02:32
+Test epoch | Steps: 143 | Elapsed Time: 0:02:34
+Test epoch | Steps: 144 | Elapsed Time: 0:02:36
+Test epoch | Steps: 144 | Elapsed Time: 0:02:36
+Test on common_voice/clips/test.csv - WER: 0.462034, CER: 0.249311, loss: 46.648895
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 60.110451
+ - wav: file://common_voice/clips/6aa1fb542b4227a5259766f7ac1fd1fb426bff19125612f1fc3742d67339ab6cfe6d7246417010cd21dd2d9ac61b04a75173fc7af900178b94186b7c46868365.wav
+ - src: "radionuklidbatterien sind für jahrzehnte zuverlässige energiequellen"
+ - res: "radionuklidbatterien sind für jahrzehnte zuverlässige energiequellen"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 49.770733
+ - wav: file://common_voice/clips/e07dde5f3f90774c920d37ec0f694466ecd25072e238146564d88a1ad749b1c8ed0548bb240b512cc623761d9de4720ff19891ce516437bb41c23273ce5b2091.wav
+ - src: "manche probanden haben sich aus langeweile freiwillig schmerzhafte stromschläge verpasst"
+ - res: "manche probanden haben sich aus langeweile freiwillig schmerzhafte stromschläge verpasst"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 48.975590
+ - wav: file://common_voice/clips/4634f7b52f64fb3227706a126a8797f19e61963b29e727ff68f2cf802c9a95994ad1675ffcbfdd32bd7fcb9cf1aa83468a722072dee12851e5bc6981ddd9a600.wav
+ - src: "wobei die zündspannung nicht direkt von der batterie kommt sondern von einem trafo erzeugt wird"
+ - res: "wobei die zündspannung nicht direkt von der batterie kommt sondern von einem trafo erzeugt wird"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 48.237816
+ - wav: file://common_voice/clips/bd18838f8296b2c92f57f53591f145ec285ff244773e74073a48ab38a1c25602be4f7647080198d326902dda691575bfceedea580fea9731c93dd6dabe15b378.wav
+ - src: "ludwig van beethoven ist einer der söhne der stadt bonn"
+ - res: "ludwig van beethoven ist einer der söhne der stadt bonn"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.018519, loss: 47.094624
+ - wav: file://common_voice/clips/2f4cb22ebbb7bb70897f8248d1fd5d31d6bfba4628e940ac92c935566b0b5218cc11ea51fe9e9f08846bb4c77845f859127e1503a1d7b8dbb65088e28d52aa18.wav
+ - src: "der zoll untersteht dem bundesministerium der finanzen"
+ - res: "der zoll untersteht dem bundesministerium der finanzen "
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.444444, CER: 0.177419, loss: 45.588795
+ - wav: file://common_voice/clips/67f3538badd5bc9d7a9702468b0843b3baf91e4c70bdecf786b407605fd422f46619d791345215c9183debe272d4429d935867f99d5f42d46aa92d09adf5cd67.wav
+ - src: "der nachbar fährt wieder abgesägte baumstämme durch die gegend"
+ - res: "der nachbar frieder abgesägt baum stehen durch die gegend"
+--------------------------------------------------------------------------------
+WER: 0.444444, CER: 0.301887, loss: 44.757832
+ - wav: file://common_voice/clips/db77ba75a26ea5450f89b99723b9534c29095ef5534fe9f9f1648ef1303e5ccf7a10b9e80a43a22acfc26297321475293a2c190bbb338fb32ceb4003278146f2.wav
+ - src: "der sprecher zieht mal wieder über seine kollegen her"
+ - res: "der sprecher sieben wieder seine kollegen"
+--------------------------------------------------------------------------------
+WER: 0.444444, CER: 0.238095, loss: 43.089558
+ - wav: file://common_voice/clips/cc5ea365d0a1a3fc4b412ab22d42d4a0f74ddb1685fcd772fc3a95ddde3abfdc470f96040cb40be8551db13ee2e87958a29d5737f1304e8cfbad11b70864eb76.wav
+ - src: "bleistifte enthalten schon lange kein blei mehr sondern graphit"
+ - res: "leichteste enthalten schon lange kein blei maroden gast"
+--------------------------------------------------------------------------------
+WER: 0.444444, CER: 0.235294, loss: 41.961052
+ - wav: file://common_voice/clips/ea624609564861ac7bd66dde1659640c116a334a6aabcc0e40780885765faeaf5c469d63131072ed9898b315e13075fe9aa71693e100ff61bc29d46dda5e5bdc.wav
+ - src: "wenn es am ladegerät hängt klingelt das handy nicht"
+ - res: "wenn es am ladegerät klingt das habenicht"
+--------------------------------------------------------------------------------
+WER: 0.444444, CER: 0.129032, loss: 41.428627
+ - wav: file://common_voice/clips/27ce3f3239cea8e75963cceadcf811e611f1afe0872c210ca70b83b5fd2d2068a1dd7c4ddf86f2eb5905f10e04e13228f1b58169f7b3e44cd9028d85d3ecc7b7.wav
+ - src: "nachdenklich steckte ferdinand sich eine zigarre an und paffte"
+ - res: "nachdenklich steckte ferdinand sich eine zigarren passte"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.500000, loss: 18.953188
+ - wav: file://common_voice/clips/08b5e313fc2e64483ab5691378cdc6e0a192219302a3afc18b4491a8ea4a2d09fe79ae41dd30d473e0c2f4faa0de2ef38c9dd087760005c1f6c749d11913bea3.wav
+ - src: "wartet jungs"
+ - res: "warte die uns"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.217391, loss: 14.050905
+ - wav: file://common_voice/clips/81d59d087551dbdf16b300a2602c2de4f35859917c2ef3329934ceb56fb1b205970af2702b4df8737447a43a4213bb0a51b74af0b6a9f1e3a4fa7980c265264d.wav
+ - src: "alarmanlage ausschalten"
+ - res: "alle man lange ausschalten"
+--------------------------------------------------------------------------------
+WER: 1.666667, CER: 0.517241, loss: 42.161579
+ - wav: file://common_voice/clips/c97e0ba596c9ea6d5725caf78b6ff6efd742aa3e46aa1794534e912d20d743e64307abfacea86fc369ffcf3c04cb33ee13897962ce88764f7f22692e6367bcab.wav
+ - src: "papperlapapp widersprach elke"
+ - res: "aber da hat weder sprache"
+--------------------------------------------------------------------------------
+WER: 2.000000, CER: 0.611111, loss: 33.482807
+ - wav: file://common_voice/clips/b5c97daee3bb2474b88b1afb2d4b7dda03d12954462e5a96f1720bcff79cf9bc9c85c4fac5b04fdbaffb20f48acb0501779aa989bacad93f4c82eee711a457e0.wav
+ - src: "weitermachen bitte"
+ - res: "war der magen werde"
+--------------------------------------------------------------------------------
+WER: 2.333333, CER: 0.433962, loss: 80.592972
+ - wav: file://common_voice/clips/2266476de55a658de6194a908ea9d746496ba2a71fbd55ba68208b7b7c367787f634538ee818b83e2832be8a4ca2fc9ceb95d8ff0ed84015903c4ee860846663.wav
+ - src: "flugverkehrskontrollfreigaben sind polizeiverfügungen"
+ - res: "für schapers kontrollfragen zehn polizei verfügen eine"
+--------------------------------------------------------------------------------
