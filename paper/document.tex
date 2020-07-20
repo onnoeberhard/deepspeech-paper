@@ -4,13 +4,13 @@
 % Font and encoding
 \usepackage{lmodern}           % Better computer modern font
 \usepackage[T1]{fontenc}       % Better glyph encoding
-\usepackage[utf8]{inputenc}    % Necessary for unicode characters (sometimes automatically loaded)
+\usepackage[utf8]{inputenc}    % Necessary for unicode characters
 \usepackage[english]{babel}    % Necessary for correct hyphenation
 \usepackage{textcomp}          % Necessary to display unicode characters like €
-\usepackage{csquotes}          % For handling quotes correctly (\MakeOuterQuote{"})
+\usepackage{csquotes}          % Quotes (\MakeOuterQuote{"} needed!)
 
 % Other packages
-\usepackage[style=alphabetic]{biblatex}    % Bibliography
+\usepackage[style=authoryear]{biblatex}    % Bibliography
 \usepackage[parfill]{parskip}              % Add space between paragraphs
 \usepackage[hidelinks]{hyperref}           % Clickable \ref and \cite
 \usepackage{graphicx}                      % Needed for figures
@@ -28,29 +28,36 @@
 % \setcounter{secnumdepth}{0}
 % \titleformat{\chapter}{\normalfont\bfseries\Huge}{\thechapter}{20pt}{}
 % \setlength{\parskip}{.5\baselineskip}
-% \setlength\parindent{0pt}
+\setlength\parindent{0pt}
 \captionsetup{width=.9\linewidth}
 % \captionsetup[subfigure]{width=.9\linewidth}
 \addbibresource{bib.bib}
 
-\title{Layer }
+\title{Effects of Layer Freezing when Transfering DeepSpeech to German}
 \author[1]{\textbf{Onno Eberhard}}
 \author[ ]{\textbf{Torsten Zesch}}
 \affil[ ]{Language Technology Lab}
 \affil[ ]{University of Duisburg-Essen}
-\affil[1]{\texttt{onnoeberhard@gmail.com}}
+\affil[1]{\href{mailto:onno.eberhard@stud.uni-due.de}{\texttt{onno.eberhard@stud.uni-due.de}}}
+\date{}
 
 \begin{document}
 \maketitle
 
-\begin{abstract}
-Here is where I would say what is in this document.
+\begin{abstract}\noindent
+In this paper, we train Mozilla's DeepSpeech architecture in various ways on Mozilla's Common Voice German language speech dataset and compare the results. We build on previous efforts by \textcite{agarwal-zesch-2019-german} and reproduce their results by training the model from scratch. We improve upon these results by using an English pretrained version of DeepSpeech for weight initialization and experiment with the effects of freezing different layers during training.
 \end{abstract}
 
 \section{Introduction}
-\cite{agarwal-zesch-2019-german}
+The field of automatic speech recognition is dominated by research specific to English. There exist plenty available text-to-speech models pretrained on (and optimized for) the English language. When it comes to German, the range of available pretrained models becomes much sparser. In this paper, we train Mozilla's implementation\footnote{\url{https://github.com/mozilla/DeepSpeech}} of Baidu's DeepSpeech architecture \parencite{hannun2014deep} on German speech data. We use transfer learning to leverage the availability of a pretrained English version of DeepSpeech. Our approach is to initialize all parameters of the network to the parameters of the English pretrained model. While training the model, we experiment with freezing the weights of different layers. The rationale for using transfer learning is not only that English and German are closely related languages. In fact, one could argue that they are very different in this context, because DeepSpeech is trained to directly infer written characters from audio data and English and German pronunciations of characters differ greatly. However, the first few layers of the DeepSpeech network are likely not infering the final output character, but rather lower lever features of the spoken input, such as phonemes, which are shared across different languages. Thus, the model should give better results when trained on a small dataset than a model trained from scratch, because it does not have to learn these lower level features again.
+
+In addition to using transfer learning, we also train the whole model without initializing the weights to those of the English model, thereby reproducing a result from \textcite{agarwal-zesch-2019-german}. We see that the model trained using transfer learning performs better, which is in accordance with our hypothesis stated above.
+
+% DeepSpeech hier beschreiben!
 
 \section{Training}
+
+
 \cite{Radeck-Arneth2015}
 \cite{heafield-2011-kenlm}
 
@@ -58,7 +65,7 @@ Here is where I would say what is in this document.
 
 % \section{Further Experiments}
 
-\section{Next Steps}
+\section{Further Research}
 % Polyglot
 
 Citing \cite{agarwal-zesch-2019-german} here.

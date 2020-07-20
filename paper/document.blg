@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'document.blg'
-[47] biber-darwin:313> INFO - === Thu Jul 16, 2020, 10:41:44
-[76] Biber.pm:371> INFO - Reading 'document.bcf'
-[181] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
-[195] Biber.pm:3976> INFO - Processing section 0
-[212] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[213] bibtex.pm:1500> INFO - LaTeX decoding ...
-[220] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
-[254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[254] Biber.pm:3804> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[254] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[265] bbl.pm:617> INFO - Writing 'document.bbl' with encoding 'UTF-8'
-[267] bbl.pm:720> INFO - Output to document.bbl
+[44] biber-darwin:313> INFO - === Mon Jul 20, 2020, 08:21:03
+[72] Biber.pm:371> INFO - Reading 'document.bcf'
+[179] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
+[194] Biber.pm:3976> INFO - Processing section 0
+[213] Biber.pm:4136> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[214] bibtex.pm:1500> INFO - LaTeX decoding ...
+[224] bibtex.pm:1316> INFO - Found BibTeX data source 'bib.bib'
+[279] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[279] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[279] Biber.pm:3804> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[279] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[292] bbl.pm:617> INFO - Writing 'document.bbl' with encoding 'UTF-8'
+[299] bbl.pm:720> INFO - Output to document.bbl

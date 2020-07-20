@@ -18,19 +18,21 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global}
+  \datalist[entry]{nyt/global//global/global}
     \entry{agarwal-zesch-2019-german}{inproceedings}{}
       \name{author}{2}{}{%
-        {{hash=5a55e687cf1a20af93e76e899898566a}{%
+        {{uniquename=0,uniquepart=base,hash=5a55e687cf1a20af93e76e899898566a}{%
            family={Agarwal},
            familyi={A\bibinitperiod},
            given={Aashish},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d2bddcda907ea93d3a82a0623d8d0930}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d2bddcda907ea93d3a82a0623d8d0930}{%
            family={Zesch},
            familyi={Z\bibinitperiod},
            given={Torsten},
-           giveni={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Erlangen, Germany}%
@@ -44,9 +46,10 @@
       \strng{authorbibnamehash}{0541d82e520823783eda68de679acad5}
       \strng{authornamehash}{0541d82e520823783eda68de679acad5}
       \strng{authorfullhash}{0541d82e520823783eda68de679acad5}
-      \field{labelalpha}{AZ19}
       \field{sortinit}{A}
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 15th Conference on Natural Language Processing (KONVENS 2019): Long Papers}
@@ -55,13 +58,103 @@
       \field{pages}{111\bibrangedash 119}
       \range{pages}{9}
     \endentry
+    \entry{hannun2014deep}{misc}{}
+      \name{author}{11}{}{%
+        {{uniquename=0,uniquepart=base,hash=b0b92970ca8a68ab09fa412b36dbf6f3}{%
+           family={Hannun},
+           familyi={H\bibinitperiod},
+           given={Awni},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0d483f6ed8a1137f290d64eb58470474}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0068bfe8f24d2afb2959214f0b5928a4}{%
+           family={Casper},
+           familyi={C\bibinitperiod},
+           given={Jared},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3c8bbc381484f2cfbbd08866be36590e}{%
+           family={Catanzaro},
+           familyi={C\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=888d2c68b131988d3ec5de80397523bb}{%
+           family={Diamos},
+           familyi={D\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6aa92a937d4d30dd0b5ec0eecbad1bf1}{%
+           family={Elsen},
+           familyi={E\bibinitperiod},
+           given={Erich},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1d3f831a6b4fef8e363f1ee3739a0a04}{%
+           family={Prenger},
+           familyi={P\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=434c8ee62c507c93be09958bae942da5}{%
+           family={Satheesh},
+           familyi={S\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e0c47e078d4625980ee5ad6f1f735fbd}{%
+           family={Sengupta},
+           familyi={S\bibinitperiod},
+           given={Shubho},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2a6ca55dc46029c413e9054d19502b28}{%
+           family={Coates},
+           familyi={C\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=66b1ab24d7f42d468388f6200a7b5967}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima Y.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4f58fa0695bd8955b313f26fc08873b}
+      \strng{fullhash}{ac1d0f8e1c0dd9afa04bc8ff20f751e3}
+      \strng{bibnamehash}{d4f58fa0695bd8955b313f26fc08873b}
+      \strng{authorbibnamehash}{d4f58fa0695bd8955b313f26fc08873b}
+      \strng{authornamehash}{d4f58fa0695bd8955b313f26fc08873b}
+      \strng{authorfullhash}{ac1d0f8e1c0dd9afa04bc8ff20f751e3}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Deep Speech: Scaling up end-to-end speech recognition}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1412.5567
+      \endverb
+    \endentry
     \entry{heafield-2011-kenlm}{inproceedings}{}
       \name{author}{1}{}{%
-        {{hash=7335b523d68241b7785091b15c243eac}{%
+        {{uniquename=0,uniquepart=base,hash=7335b523d68241b7785091b15c243eac}{%
            family={Heafield},
            familyi={H\bibinitperiod},
            given={Kenneth},
-           giveni={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Edinburgh, Scotland}%
@@ -75,9 +168,10 @@
       \strng{authorbibnamehash}{7335b523d68241b7785091b15c243eac}
       \strng{authornamehash}{7335b523d68241b7785091b15c243eac}
       \strng{authorfullhash}{7335b523d68241b7785091b15c243eac}
-      \field{labelalpha}{Hea11}
       \field{sortinit}{H}
       \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Sixth Workshop on Statistical Machine Translation}
@@ -95,41 +189,48 @@
     \endentry
     \entry{Radeck-Arneth2015}{inproceedings}{}
       \name{author}{7}{}{%
-        {{hash=19cbeed35990942ce0a0a4d3267d818f}{%
+        {{uniquename=0,uniquepart=base,hash=19cbeed35990942ce0a0a4d3267d818f}{%
            family={Radeck-Arneth},
            familyi={R\bibinithyphendelim A\bibinitperiod},
            given={Stephan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b9acf70dd0580d2b9b0784601833e6ec}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b9acf70dd0580d2b9b0784601833e6ec}{%
            family={Milde},
            familyi={M\bibinitperiod},
            given={Benjamin},
-           giveni={B\bibinitperiod}}}%
-        {{hash=e69f3e3c4047cf229b21c299eff7ede9}{%
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e69f3e3c4047cf229b21c299eff7ede9}{%
            family={Lange},
            familyi={L\bibinitperiod},
            given={Arvid},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3c5f52e57bad7ac3edbf74925b0979da}{%
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3c5f52e57bad7ac3edbf74925b0979da}{%
            family={Gouvea},
            familyi={G\bibinitperiod},
            given={Evandro},
-           giveni={E\bibinitperiod}}}%
-        {{hash=5e10ce2999fd03ca250ec50bd64bf207}{%
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5e10ce2999fd03ca250ec50bd64bf207}{%
            family={Radomski},
            familyi={R\bibinitperiod},
            given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a6423b5065b794a670038ce1a2ec62ab}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a6423b5065b794a670038ce1a2ec62ab}{%
            family={M{ü}hlh{ä}user},
            familyi={M\bibinitperiod},
            given={Max},
-           giveni={M\bibinitperiod}}}%
-        {{hash=786eca9f4966307b17cae6c3bba98905}{%
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=786eca9f4966307b17cae6c3bba98905}{%
            family={Biemann},
            familyi={B\bibinitperiod},
            given={Chris},
-           giveni={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod},
+           givenun=0}}%
       }
       \list{location}{1}{%
         {Pilsen, Czech Republic}%
@@ -140,9 +241,10 @@
       \strng{authorbibnamehash}{6ea5291f84c9b7631cc9979fac971706}
       \strng{authornamehash}{6ea5291f84c9b7631cc9979fac971706}
       \strng{authorfullhash}{28e91b17b0ddfbcde1c8140e680d31a1}
-      \field{labelalpha}{Rad+15}
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings Text, Speech and Dialogue (TSD)}
