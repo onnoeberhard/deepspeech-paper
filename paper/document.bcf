@@ -1977,10 +1977,17 @@
   <bcf:section number="0">
     <bcf:citekey order="1">agarwal-zesch-2019-german</bcf:citekey>
     <bcf:citekey order="2">hannun2014deep</bcf:citekey>
-    <bcf:citekey order="3">agarwal-zesch-2019-german</bcf:citekey>
-    <bcf:citekey order="4">Radeck-Arneth2015</bcf:citekey>
-    <bcf:citekey order="5">heafield-2011-kenlm</bcf:citekey>
-    <bcf:citekey order="6">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="3">hannun2014deep</bcf:citekey>
+    <bcf:citekey order="4">imai1983cepstral</bcf:citekey>
+    <bcf:citekey order="5">hochreiter1997long</bcf:citekey>
+    <bcf:citekey order="6">graves2006connectionist</bcf:citekey>
+    <bcf:citekey order="7">kingma2014adam</bcf:citekey>
+    <bcf:citekey order="8">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="9">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="10">heafield-2011-kenlm</bcf:citekey>
+    <bcf:citekey order="11">Radeck-Arneth2015</bcf:citekey>
+    <bcf:citekey order="12">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="13">agarwal-zesch-2019-german</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

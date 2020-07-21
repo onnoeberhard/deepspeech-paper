@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.2)  20 JUL 2020 08:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.2)  21 JUL 2020 10:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -943,7 +943,11 @@ Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-) (./document.aux)
+) (./document.aux
+
+LaTeX Warning: Label `fig:3c' multiply defined.
+
+)
 \openout1 = `document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -1108,31 +1112,52 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+<ds.png, id=58, 1644.544pt x 1576.289pt>
+File: ds.png Graphic file (type png)
+<use ds.png>
+Package pdftex.def Info: ds.png  used on input line 60.
+(pdftex.def)             Requested size: 355.51817pt x 340.74756pt.
+ [2 <./ds.png>] [3]
+<../3curves.pdf, id=101, 650.43pt x 433.62pt>
+File: ../3curves.pdf Graphic file (type pdf)
+<use ../3curves.pdf>
+Package pdftex.def Info: ../3curves.pdf  used on input line 114.
+(pdftex.def)             Requested size: 418.25368pt x 278.83916pt.
+<../4curves.pdf, id=102, 650.43pt x 433.62pt>
+File: ../4curves.pdf Graphic file (type pdf)
+<use ../4curves.pdf>
+Package pdftex.def Info: ../4curves.pdf  used on input line 121.
+(pdftex.def)             Requested size: 418.25368pt x 278.83916pt.
+ [4 <../3curves.pdf>] [5 <../4curves.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: B6576D62322B36BAB3636A3A288E4997;183.
+(rerunfilecheck)             Checksum: 5312232D57D4B645DE93B1FD1C584088;320.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28197 strings out of 492639
- 518615 string characters out of 6129302
- 934044 words of memory out of 5000000
- 31801 multiletter control sequences out of 15000+600000
- 621062 words of font info for 78 fonts, out of 8000000 for 9000
+ 28278 strings out of 492639
+ 520017 string characters out of 6129302
+ 936696 words of memory out of 5000000
+ 31851 multiletter control sequences out of 15000+600000
+ 628323 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,8n,65p,1611b,1640s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on document.pdf (2 pages, 256994 bytes).
+ 47i,8n,65p,1595b,1762s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on document.pdf (6 pages, 1073745 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

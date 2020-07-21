@@ -58,6 +58,51 @@
       \field{pages}{111\bibrangedash 119}
       \range{pages}{9}
     \endentry
+    \entry{graves2006connectionist}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=dfca94b0427da7f9088af596e23b46c0}{%
+           family={Graves},
+           familyi={G\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=06cb9b7c6d106c9bbaebbb926890730b}{%
+           family={Fern{á}ndez},
+           familyi={F\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6ac505680efa9d3591dd05930a13ccd5}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Faustino},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bcbd82d7c2dc8000e44f70ed775668f}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{fullhash}{85579d659af01bfed04736114624f34d}
+      \strng{bibnamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authorbibnamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authornamehash}{8b91c8aa3714ffeda8908af3996aa567}
+      \strng{authorfullhash}{85579d659af01bfed04736114624f34d}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 23rd international conference on Machine learning}
+      \field{title}{Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks}
+      \field{year}{2006}
+      \field{pages}{369\bibrangedash 376}
+      \range{pages}{8}
+    \endentry
     \entry{hannun2014deep}{misc}{}
       \name{author}{11}{}{%
         {{uniquename=0,uniquepart=base,hash=b0b92970ca8a68ab09fa412b36dbf6f3}{%
@@ -185,6 +230,110 @@
       \endverb
       \verb{url}
       \verb https://www.aclweb.org/anthology/W11-2123
+      \endverb
+    \endentry
+    \entry{hochreiter1997long}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1bcbd82d7c2dc8000e44f70ed775668f}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{fullhash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{bibnamehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{authorbibnamehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{authornamehash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \strng{authorfullhash}{d3ce1567e1b6827852a6bd6ce29a3ad9}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural computation}
+      \field{number}{8}
+      \field{title}{Long short-term memory}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{pages}{1735\bibrangedash 1780}
+      \range{pages}{46}
+    \endentry
+    \entry{imai1983cepstral}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=29e9196ea2f3ad6fb840409d9316975f}{%
+           family={Imai},
+           familyi={I\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{29e9196ea2f3ad6fb840409d9316975f}
+      \strng{fullhash}{29e9196ea2f3ad6fb840409d9316975f}
+      \strng{bibnamehash}{29e9196ea2f3ad6fb840409d9316975f}
+      \strng{authorbibnamehash}{29e9196ea2f3ad6fb840409d9316975f}
+      \strng{authornamehash}{29e9196ea2f3ad6fb840409d9316975f}
+      \strng{authorfullhash}{29e9196ea2f3ad6fb840409d9316975f}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICASSP'83. IEEE International Conference on Acoustics, Speech, and Signal Processing}
+      \field{title}{Cepstral analysis synthesis on the mel frequency scale}
+      \field{volume}{8}
+      \field{year}{1983}
+      \field{pages}{93\bibrangedash 96}
+      \range{pages}{4}
+    \endentry
+    \entry{kingma2014adam}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=1e072d74f4ac1094c9c26e1b592cea4a}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \strng{fullhash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \strng{bibnamehash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \strng{authorbibnamehash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \strng{authornamehash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \strng{authorfullhash}{c1670936fba733d1cb2d4c23bce95c6e}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Adam: A Method for Stochastic Optimization}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1412.6980
       \endverb
     \endentry
     \entry{Radeck-Arneth2015}{inproceedings}{}
