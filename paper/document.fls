@@ -278,8 +278,8 @@ INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ds.png
 INPUT ./ds.png
 INPUT ./ds.png
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT ../3curves.pdf
 INPUT ../3curves.pdf

@@ -1983,11 +1983,15 @@
     <bcf:citekey order="6">graves2006connectionist</bcf:citekey>
     <bcf:citekey order="7">kingma2014adam</bcf:citekey>
     <bcf:citekey order="8">agarwal-zesch-2019-german</bcf:citekey>
-    <bcf:citekey order="9">agarwal-zesch-2019-german</bcf:citekey>
-    <bcf:citekey order="10">heafield-2011-kenlm</bcf:citekey>
-    <bcf:citekey order="11">Radeck-Arneth2015</bcf:citekey>
+    <bcf:citekey order="9">heafield-2011-kenlm</bcf:citekey>
+    <bcf:citekey order="10">Radeck-Arneth2015</bcf:citekey>
+    <bcf:citekey order="11">schroder2003german</bcf:citekey>
     <bcf:citekey order="12">agarwal-zesch-2019-german</bcf:citekey>
     <bcf:citekey order="13">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="14">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="15">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="16">agarwal-zesch-2019-german</bcf:citekey>
+    <bcf:citekey order="17">agarwal-zesch-2019-german</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}    % Add "draft" option for draft mode
-\usepackage[paper=a4paper, top=30mm, bottom=30mm]{geometry}
+\usepackage[paper=a4paper, top=25mm, bottom=25mm]{geometry}
 
 % Font and encoding
 \usepackage{lmodern}           % Better computer modern font
@@ -62,9 +62,7 @@ Mozilla's DeepSpeech implementation differs in many ways from the original model
     \label{fig:ds}
 \end{figure}
 
-\subsection{Training Details}
-% erst: erklären, welche models tatsächlich trainiert wurden. was heißt complete, transfer, etc.
-% dann: agarwal, training script, version, implementation and github, dataset, language model, hyperparameters, specs
+\subsection{Training Details} \label{sec:training}
 In transfer learning, all weights of the model are initialized to those of the Enlish pretrained model, which is provided by Mozilla\footnote{\url{https://github.com/mozilla/DeepSpeech/releases}}. In addition to transfer learning, we also train the model from scratch with random weight initialization, thereby reproducing a result from \textcite{agarwal-zesch-2019-german}. In total, we train 6 different models:
 \begin{enumerate}
     \item The whole model from scratch ("Complete Training")
@@ -74,21 +72,15 @@ In transfer learning, all weights of the model are initialized to those of the E
     \item The English-initialized model with the first three layers frozen
     \item The English-initialized model with the first three and the fifth layer frozen
 \end{enumerate}
+We used Mozilla's DeepSpeech version 0.7.4 for training the model from scratch and version 0.7.3 for the transfer learning approach. The complete training script is available online\footnote{\url{https://github.com/onnoeberhard/deepspeech-paper/blob/master/training.sh}}. The modified versions of DeepSpeech that utilise layer freezing are also available online\footnote{\url{https://github.com/onnoeberhard/deepspeech-transfer}, the different versions with a different number of frozen layers are in the branches \emph{transfer-1}, \emph{\mbox{transfer-2}}, \emph{transfer} and \emph{\mbox{transfer-4}}.}. The weights were frozen by adding \texttt{trainable=False} at the appropriate places in the TensorFlow code. For all models, we had to reinitialize the last layer, because of the different alphabet sizes of German and English.
 
-The layers were frozen by simply adding \texttt{trainable=False} at the appropriate places in the TensorFlow code. For all models, we had to reinitialize the last layer, because of the different alphabet sizes of German and English.
+We trained the models on the German-language Mozilla Common Voice 2.0 speech dataset\footnote{\url{https://voice.mozilla.org/en/datasets}}. For inference and testing we used the language model KenLM \parencite{heafield-2011-kenlm}, trained on the corpus described in \parencite[Section 3.2]{Radeck-Arneth2015}. The text corpus consists of a mixture of text from the sources Wikipedia, Europarl and crawled sentences. The whole corpus was preprocessed with MaryTTS \parencite{schroder2003german} and cleaned in the same way as described in \parencite{agarwal-zesch-2019-german}. All these steps were chosen to be identical to \parencite{agarwal-zesch-2019-german}, such that comparison of results would be as meaningful as possible.
 
-The complete training script is available online\footnote{\url{https://github.com/onnoeberhard/deepspeech-paper/blob/master/training.sh}}. We used Mozilla's DeepSpeech version 0.7.4 for training the model from scratch and version 0.7.3 for the transfer learning approach. The modified versions of DeepSpeech that utilise layer freezing are also available online\footnote{\url{https://github.com/onnoeberhard/deepspeech-transfer}, the different versions with a different number of frozen layers are in the branches \emph{transfer-1}, \emph{\mbox{transfer-2}}, \emph{transfer} and \emph{\mbox{transfer-4}}.}.
-
-We trained the models on the German-language Mozilla Common Voice 2.0 speech dataset\footnote{\url{https://voice.mozilla.org/de/datasets}}. This made it possible to compare our results to \parencite{agarwal-zesch-2019-german}.
-
-For inference and testing we used the language model KenLM \parencite{heafield-2011-kenlm}, fitted to the corpus from \parencite{Radeck-Arneth2015}.
-
-In training each model, we used a batch size of 24, a learning rate of 0.0005 and a dropout rate of 0.4. We did not perform any hyperparamter optimization.
-
-The training was done on a Linux machine with 96 Intel Xeon Platinum 8160 CPUs @ 2.10GHz, 256GB of memory and an NVIDIA GeForce GTX 1080 Ti GPU with 11GB of memory. Each model trained for approximately one hour to get 30 epochs.
+In training each model, we used a batch size of 24, a learning rate of 0.0005 and a dropout rate of 0.4. We did not perform any hyperparamter optimization. These hyperparameters, as well as those selected for traning the language model, differ from those chosen in \parencite{agarwal-zesch-2019-german}. This explains why our results differ even though the same model and training data was used. The training was done on a Linux machine with 96 Intel Xeon Platinum 8160 CPUs @ 2.10GHz, 256GB of memory and an NVIDIA GeForce GTX 1080 Ti GPU with 11GB of memory. Training each for 30 epochs took approximately one hour each.
 
 \section{Results}
-bla bla bla
+The test results from the six different models described in section \ref{sec:training} are compiled in table \ref{tab:results}. For testing, the epoch with the best validation loss during training was taken for each model. The last row is taken from \parencite[Table 3]{agarwal-zesch-2019-german} and describes only the result of training with the same data as we did. \textcite{agarwal-zesch-2019-german} achieved much better results when training on larger datasets. The difference between our result without transfer learning (WER 0.697) and theirs (0.797) likely stems from the difference in hyperparameters used. Figures \ref{fig:3c} and \ref{fig:4c} show the learning curves for all training procedures, with the green line (3 frozen layers) being the same in both plots. The epochs used for testing are also marked in the figures.
+
 \begin{table}[ht]
     \centering
     \vspace{5mm}
@@ -97,7 +89,7 @@ bla bla bla
         Method & WER \\
         \midrule
         Complete Training & 0.697 \\
-        Tranfer: No frozen layers & 0.627 \\
+        Simple Transfer & 0.627 \\
         1 Frozen Layer & 0.483 \\
         2 Frozen Layers & 0.443 \\
         \textbf{3 Frozen Layers} & \textbf{0.437} \\
@@ -105,29 +97,34 @@ bla bla bla
         \cite{agarwal-zesch-2019-german} & 0.797 \\
         \bottomrule
     \end{tabular}
-    \caption{Quanteneffizienten berechnet mit Gleichung}
+    \caption{Testing results (Word Error Rate)}
     \label{tab:results}
 \end{table}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{../3curves.pdf}
-    \caption{Trainingskurven..}
+    \caption{Learning curves: With and without transfer learning and layer freezing}
     \label{fig:3c}
 \end{figure}
 
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{../4curves.pdf}
-    \caption{Trainingskurven 2!..}
-    \label{fig:3c}
+    \caption{Learning curves: Comparison of freezing a different number of layers}
+    \label{fig:4c}
 \end{figure}
 
-\section{Further Research}
-% Polyglot
-% Training on more data
+The best results were achieved by the model with the first three layers frozen during training. It is notable however, that the other three models that utilise layer freezing are not far off. The training curves look remarkably similar (see Figure~\ref{fig:4c}). All four models achieve much better results than the two models without layer freezing. The results seem to indicate that freezing the first layer brings the largest advanage in training, with diminishing returns on freezing the second and third layers. Additionally freezing the fifth layer slightly worsens the result.
 
-Citing \cite{agarwal-zesch-2019-german} here.
+The model with four frozen layer could only optimize the LSTM layer and the very last layer. It is surprising that it still achieves good results. It might be interesting to see what happens when the LSTM layer is frozen. It is probable that with a larger dataset the benefits of freezing weights decrease and better results are achieved with freezing fewer or no layers. However, for languages or dialects with little available training data this transfer learning approach seems promising.
+
+Next steps include
+% Nach allen Bilden noch eine kurze Diskussion, warum das so aussehen könnte? (Das paper heißt schließlich die effects of layer freezing, das muss diskutiert werden.)
+% Link, wo das beste Ergebnis runtergeladen werden kann!
+% Polyglot
+
+The TensorFlow checkpoint for our best model (3 frozen layers) is available online\footnote{\url{...}}.
 
 \printbibliography
 

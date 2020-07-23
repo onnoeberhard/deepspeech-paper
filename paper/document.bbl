@@ -402,6 +402,44 @@
       \field{pages}{480\bibrangedash 488}
       \range{pages}{9}
     \endentry
+    \entry{schroder2003german}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=e3eaa49ed1460552a15b2b23e78468ec}{%
+           family={Schr{ö}der},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=787772474e23f42d6566f535d7857343}{%
+           family={Trouvain},
+           familyi={T\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{61c68a265f7956bb2a770d4a60bd8f05}
+      \strng{fullhash}{61c68a265f7956bb2a770d4a60bd8f05}
+      \strng{bibnamehash}{61c68a265f7956bb2a770d4a60bd8f05}
+      \strng{authorbibnamehash}{61c68a265f7956bb2a770d4a60bd8f05}
+      \strng{authornamehash}{61c68a265f7956bb2a770d4a60bd8f05}
+      \strng{authorfullhash}{61c68a265f7956bb2a770d4a60bd8f05}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Speech Technology}
+      \field{number}{4}
+      \field{title}{The German text-to-speech synthesis system MARY: A tool for research, development and teaching}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{pages}{365\bibrangedash 377}
+      \range{pages}{13}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
