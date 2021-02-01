@@ -1,0 +1,150 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-746262
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on swiss_data/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:05
+Test epoch | Steps: 2 | Elapsed Time: 0:00:06
+Test epoch | Steps: 3 | Elapsed Time: 0:00:06
+Test epoch | Steps: 4 | Elapsed Time: 0:00:07
+Test epoch | Steps: 5 | Elapsed Time: 0:00:07
+Test epoch | Steps: 6 | Elapsed Time: 0:00:08
+Test epoch | Steps: 7 | Elapsed Time: 0:00:09
+Test epoch | Steps: 8 | Elapsed Time: 0:00:09
+Test epoch | Steps: 9 | Elapsed Time: 0:00:10
+Test epoch | Steps: 10 | Elapsed Time: 0:00:11
+Test epoch | Steps: 11 | Elapsed Time: 0:00:12
+Test epoch | Steps: 12 | Elapsed Time: 0:00:13
+Test epoch | Steps: 13 | Elapsed Time: 0:00:13
+Test epoch | Steps: 14 | Elapsed Time: 0:00:14
+Test epoch | Steps: 15 | Elapsed Time: 0:00:16
+Test epoch | Steps: 16 | Elapsed Time: 0:00:17
+Test epoch | Steps: 17 | Elapsed Time: 0:00:18
+Test epoch | Steps: 18 | Elapsed Time: 0:00:19
+Test epoch | Steps: 19 | Elapsed Time: 0:00:20
+Test epoch | Steps: 20 | Elapsed Time: 0:00:21
+Test epoch | Steps: 21 | Elapsed Time: 0:00:22
+Test epoch | Steps: 22 | Elapsed Time: 0:00:24
+Test epoch | Steps: 23 | Elapsed Time: 0:00:25
+Test epoch | Steps: 24 | Elapsed Time: 0:00:26
+Test epoch | Steps: 25 | Elapsed Time: 0:00:27
+Test epoch | Steps: 26 | Elapsed Time: 0:00:29
+Test epoch | Steps: 27 | Elapsed Time: 0:00:30
+Test epoch | Steps: 28 | Elapsed Time: 0:00:32
+Test epoch | Steps: 29 | Elapsed Time: 0:00:34
+Test epoch | Steps: 30 | Elapsed Time: 0:00:35
+Test epoch | Steps: 31 | Elapsed Time: 0:00:36
+Test epoch | Steps: 32 | Elapsed Time: 0:00:38
+Test epoch | Steps: 33 | Elapsed Time: 0:00:40
+Test epoch | Steps: 34 | Elapsed Time: 0:00:42
+Test epoch | Steps: 35 | Elapsed Time: 0:00:44
+Test epoch | Steps: 36 | Elapsed Time: 0:00:45
+Test epoch | Steps: 37 | Elapsed Time: 0:00:47
+Test epoch | Steps: 38 | Elapsed Time: 0:00:49
+Test epoch | Steps: 39 | Elapsed Time: 0:00:51
+Test epoch | Steps: 40 | Elapsed Time: 0:00:53
+Test epoch | Steps: 41 | Elapsed Time: 0:00:55
+Test epoch | Steps: 42 | Elapsed Time: 0:00:58
+Test epoch | Steps: 43 | Elapsed Time: 0:01:00
+Test epoch | Steps: 44 | Elapsed Time: 0:01:02
+Test epoch | Steps: 45 | Elapsed Time: 0:01:04
+Test epoch | Steps: 46 | Elapsed Time: 0:01:07
+Test epoch | Steps: 47 | Elapsed Time: 0:01:10
+Test epoch | Steps: 48 | Elapsed Time: 0:01:12
+Test epoch | Steps: 49 | Elapsed Time: 0:01:15
+Test epoch | Steps: 50 | Elapsed Time: 0:01:18
+Test epoch | Steps: 50 | Elapsed Time: 0:01:18
+Test on swiss_data/clips/test.csv - WER: 0.682591, CER: 0.464615, loss: 138.306335
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 48.870472
+ - wav: file://swiss_data/clips/12461.wav
+ - src: "es liegt auf der hand dass einige bisher nicht anerkannte glaubensgemeinschaften ebenfalls einen wichtigen gesellschaftlichen beitrag leisten"
+ - res: "es liegt auf der hand dass einige bisher nicht anerkannte glaubensgemeinschaften ebenfalls einen wichtigen gesellschaftlichen beitrag leisten"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 40.444679
+ - wav: file://swiss_data/clips/23004.wav
+ - src: "im wissen um den fachkräftemangel ist diese haltung aber nicht nachvollziehbar"
+ - res: "im wissen um den fachkräftemangel ist diese haltung aber nicht nachvollziehbar"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 37.170483
+ - wav: file://swiss_data/clips/17626.wav
+ - src: "ein konkreter zeitplan mit klar formulierten zielen für die berufliche wiedereingliederung von langzeitarbeitslosen personen wäre sehr sinnvoll und notwendig"
+ - res: "ein konkreter zeitplan mit klar formulierten zielen für die berufliche wiedereingliederung von langzeitarbeitslosen personen wäre sehr sinnvoll und notwendig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 32.871883
+ - wav: file://swiss_data/clips/15380.wav
+ - src: "natürlich sind wir unseren wählern verpflichtet"
+ - res: "natürlich sind wir unseren wählern verpflichtet"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 28.032612
+ - wav: file://swiss_data/clips/30904.wav
+ - src: "das gleichgewicht und die verhältnismässigkeit werden nicht gewahrt"
+ - res: "das gleichgewicht und die verhältnismässigkeit werden nicht gewahrt"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.571429, loss: 102.752106
+ - wav: file://swiss_data/clips/34569.wav
+ - src: "dieses anliegen ist nicht ein exotisches anliegen"
+ - res: "anliegen nicht externen der unmöglichen"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.613636, loss: 96.560226
+ - wav: file://swiss_data/clips/10221.wav
+ - src: "unsere fraktion schliesst sich der motion an"
+ - res: "in einer motion an"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.582278, loss: 85.514915
+ - wav: file://swiss_data/clips/6353.wav
+ - src: "die sogenannten bankkälber erhalten keinen schlachtviehvermarktungsbeitrag mehr"
+ - res: "die sogenannten benesch verarbeitet"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.444444, loss: 85.214119
+ - wav: file://swiss_data/clips/20822.wav
+ - src: "hundebesitzer können freiwillig kurse der hundeschulen besuchen"
+ - res: "die freiwilligen der schulen besuchen"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.352941, loss: 84.565865
+ - wav: file://swiss_data/clips/19913.wav
+ - src: "ich gebe als erstes meine interessenbindung bekannt"
+ - res: "ich gebe vor meine interessen in bern"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.850000, loss: 22.550541
+ - wav: file://swiss_data/clips/11922.wav
+ - src: "die regeln sind klar"
+ - res: "eine"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 1.000000, loss: 21.838787
+ - wav: file://swiss_data/clips/16097.wav
+ - src: "zu punkt 1"
+ - res: ""
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.800000, loss: 11.873525
+ - wav: file://swiss_data/clips/28865.wav
+ - src: "das stimmt"
+ - res: "im"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.266667, loss: 20.963800
+ - wav: file://swiss_data/clips/31942.wav
+ - src: "deshalb hier der kommissionsminderheitsantrag"
+ - res: "aber der kommission minderheit santa"
+--------------------------------------------------------------------------------
+WER: 1.444444, CER: 0.918033, loss: 319.779327
+ - wav: file://swiss_data/clips/29842.wav
+ - src: "jetzt muss es wiederum auch in einen regionalen windrichtplan"
+ - res: "es muss sich wieder in regionalen derichsweiler und ersten kann man mit den insignien"
+--------------------------------------------------------------------------------

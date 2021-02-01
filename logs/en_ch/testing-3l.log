@@ -1,0 +1,150 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-740766
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on swiss_data/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:05
+Test epoch | Steps: 2 | Elapsed Time: 0:00:06
+Test epoch | Steps: 3 | Elapsed Time: 0:00:06
+Test epoch | Steps: 4 | Elapsed Time: 0:00:07
+Test epoch | Steps: 5 | Elapsed Time: 0:00:07
+Test epoch | Steps: 6 | Elapsed Time: 0:00:08
+Test epoch | Steps: 7 | Elapsed Time: 0:00:09
+Test epoch | Steps: 8 | Elapsed Time: 0:00:09
+Test epoch | Steps: 9 | Elapsed Time: 0:00:10
+Test epoch | Steps: 10 | Elapsed Time: 0:00:11
+Test epoch | Steps: 11 | Elapsed Time: 0:00:12
+Test epoch | Steps: 12 | Elapsed Time: 0:00:13
+Test epoch | Steps: 13 | Elapsed Time: 0:00:14
+Test epoch | Steps: 14 | Elapsed Time: 0:00:15
+Test epoch | Steps: 15 | Elapsed Time: 0:00:17
+Test epoch | Steps: 16 | Elapsed Time: 0:00:18
+Test epoch | Steps: 17 | Elapsed Time: 0:00:19
+Test epoch | Steps: 18 | Elapsed Time: 0:00:20
+Test epoch | Steps: 19 | Elapsed Time: 0:00:21
+Test epoch | Steps: 20 | Elapsed Time: 0:00:22
+Test epoch | Steps: 21 | Elapsed Time: 0:00:24
+Test epoch | Steps: 22 | Elapsed Time: 0:00:25
+Test epoch | Steps: 23 | Elapsed Time: 0:00:26
+Test epoch | Steps: 24 | Elapsed Time: 0:00:28
+Test epoch | Steps: 25 | Elapsed Time: 0:00:29
+Test epoch | Steps: 26 | Elapsed Time: 0:00:31
+Test epoch | Steps: 27 | Elapsed Time: 0:00:33
+Test epoch | Steps: 28 | Elapsed Time: 0:00:34
+Test epoch | Steps: 29 | Elapsed Time: 0:00:36
+Test epoch | Steps: 30 | Elapsed Time: 0:00:37
+Test epoch | Steps: 31 | Elapsed Time: 0:00:39
+Test epoch | Steps: 32 | Elapsed Time: 0:00:41
+Test epoch | Steps: 33 | Elapsed Time: 0:00:43
+Test epoch | Steps: 34 | Elapsed Time: 0:00:44
+Test epoch | Steps: 35 | Elapsed Time: 0:00:46
+Test epoch | Steps: 36 | Elapsed Time: 0:00:48
+Test epoch | Steps: 37 | Elapsed Time: 0:00:50
+Test epoch | Steps: 38 | Elapsed Time: 0:00:52
+Test epoch | Steps: 39 | Elapsed Time: 0:00:54
+Test epoch | Steps: 40 | Elapsed Time: 0:00:56
+Test epoch | Steps: 41 | Elapsed Time: 0:00:59
+Test epoch | Steps: 42 | Elapsed Time: 0:01:01
+Test epoch | Steps: 43 | Elapsed Time: 0:01:03
+Test epoch | Steps: 44 | Elapsed Time: 0:01:06
+Test epoch | Steps: 45 | Elapsed Time: 0:01:08
+Test epoch | Steps: 46 | Elapsed Time: 0:01:11
+Test epoch | Steps: 47 | Elapsed Time: 0:01:14
+Test epoch | Steps: 48 | Elapsed Time: 0:01:16
+Test epoch | Steps: 49 | Elapsed Time: 0:01:19
+Test epoch | Steps: 50 | Elapsed Time: 0:01:22
+Test epoch | Steps: 50 | Elapsed Time: 0:01:22
+Test on swiss_data/clips/test.csv - WER: 0.683573, CER: 0.472966, loss: 138.465439
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 49.190556
+ - wav: file://swiss_data/clips/17626.wav
+ - src: "ein konkreter zeitplan mit klar formulierten zielen für die berufliche wiedereingliederung von langzeitarbeitslosen personen wäre sehr sinnvoll und notwendig"
+ - res: "ein konkreter zeitplan mit klar formulierten zielen für die berufliche wiedereingliederung von langzeitarbeitslosen personen wäre sehr sinnvoll und notwendig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 41.010410
+ - wav: file://swiss_data/clips/30841.wav
+ - src: "der letzte abschnitt aus der antwort des regierungsrates ist für uns überzeugend"
+ - res: "der letzte abschnitt aus der antwort des regierungsrates ist für uns überzeugend"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 23.767439
+ - wav: file://swiss_data/clips/23004.wav
+ - src: "im wissen um den fachkräftemangel ist diese haltung aber nicht nachvollziehbar"
+ - res: "im wissen um den fachkräftemangel ist diese haltung aber nicht nachvollziehbar"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 22.109690
+ - wav: file://swiss_data/clips/20109.wav
+ - src: "die partizipation der bevölkerung ist wichtig"
+ - res: "die partizipation der bevölkerung ist wichtig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 18.286776
+ - wav: file://swiss_data/clips/31850.wav
+ - src: "in leichten begründeten fällen kann von einer kürzung abgesehen werden"
+ - res: "in leichten begründeten fällen kann von einer kürzung abgesehen werden"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.648649, loss: 63.113605
+ - wav: file://swiss_data/clips/17989.wav
+ - src: "es sind nicht nur die paradise papers"
+ - res: "nicht nur der"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.622642, loss: 60.538464
+ - wav: file://swiss_data/clips/14006.wav
+ - src: "sie werden im papier zur veranschaulichung aufgezeigt"
+ - res: "sie werden perserzeit"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.718750, loss: 53.864510
+ - wav: file://swiss_data/clips/2928.wav
+ - src: "das ist für mich gerade so eines"
+ - res: "es ist für"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.400000, loss: 52.515152
+ - wav: file://swiss_data/clips/38136.wav
+ - src: "ich spreche als motionär und als fraktionssprecher"
+ - res: "die motion und fraktionssprecher"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.763158, loss: 52.233456
+ - wav: file://swiss_data/clips/5053.wav
+ - src: "für mich ist das die erste spardebatte"
+ - res: "die erste"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 1.000000, loss: 19.483473
+ - wav: file://swiss_data/clips/16097.wav
+ - src: "zu punkt 1"
+ - res: ""
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.457143, loss: 17.811584
+ - wav: file://swiss_data/clips/18511.wav
+ - src: "soweit mal einige grundsatzgedanken"
+ - res: "im grundsatz gedanken"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 1.000000, loss: 17.692175
+ - wav: file://swiss_data/clips/28865.wav
+ - src: "das stimmt"
+ - res: ""
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.244444, loss: 20.519293
+ - wav: file://swiss_data/clips/31942.wav
+ - src: "deshalb hier der kommissionsminderheitsantrag"
+ - res: "die der kommission minderheits antrag"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.931818, loss: 328.959229
+ - wav: file://swiss_data/clips/9522.wav
+ - src: "andernfalls schiesst das ganze thema der kompetenzdelegation an gemeinden am ziel vorbei"
+ - res: "unlegierte bildet die leute die sich selber ausweisen damit dass man den schnittstellen an thema die kompetenz delegation gemeinden am ziel"
+--------------------------------------------------------------------------------

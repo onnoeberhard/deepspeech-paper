@@ -1,0 +1,150 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-742140
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on swiss_data/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:05
+Test epoch | Steps: 2 | Elapsed Time: 0:00:05
+Test epoch | Steps: 3 | Elapsed Time: 0:00:06
+Test epoch | Steps: 4 | Elapsed Time: 0:00:06
+Test epoch | Steps: 5 | Elapsed Time: 0:00:07
+Test epoch | Steps: 6 | Elapsed Time: 0:00:07
+Test epoch | Steps: 7 | Elapsed Time: 0:00:08
+Test epoch | Steps: 8 | Elapsed Time: 0:00:09
+Test epoch | Steps: 9 | Elapsed Time: 0:00:09
+Test epoch | Steps: 10 | Elapsed Time: 0:00:10
+Test epoch | Steps: 11 | Elapsed Time: 0:00:11
+Test epoch | Steps: 12 | Elapsed Time: 0:00:12
+Test epoch | Steps: 13 | Elapsed Time: 0:00:13
+Test epoch | Steps: 14 | Elapsed Time: 0:00:14
+Test epoch | Steps: 15 | Elapsed Time: 0:00:15
+Test epoch | Steps: 16 | Elapsed Time: 0:00:16
+Test epoch | Steps: 17 | Elapsed Time: 0:00:17
+Test epoch | Steps: 18 | Elapsed Time: 0:00:18
+Test epoch | Steps: 19 | Elapsed Time: 0:00:19
+Test epoch | Steps: 20 | Elapsed Time: 0:00:20
+Test epoch | Steps: 21 | Elapsed Time: 0:00:21
+Test epoch | Steps: 22 | Elapsed Time: 0:00:22
+Test epoch | Steps: 23 | Elapsed Time: 0:00:23
+Test epoch | Steps: 24 | Elapsed Time: 0:00:25
+Test epoch | Steps: 25 | Elapsed Time: 0:00:26
+Test epoch | Steps: 26 | Elapsed Time: 0:00:27
+Test epoch | Steps: 27 | Elapsed Time: 0:00:28
+Test epoch | Steps: 28 | Elapsed Time: 0:00:30
+Test epoch | Steps: 29 | Elapsed Time: 0:00:31
+Test epoch | Steps: 30 | Elapsed Time: 0:00:32
+Test epoch | Steps: 31 | Elapsed Time: 0:00:34
+Test epoch | Steps: 32 | Elapsed Time: 0:00:36
+Test epoch | Steps: 33 | Elapsed Time: 0:00:37
+Test epoch | Steps: 34 | Elapsed Time: 0:00:39
+Test epoch | Steps: 35 | Elapsed Time: 0:00:41
+Test epoch | Steps: 36 | Elapsed Time: 0:00:43
+Test epoch | Steps: 37 | Elapsed Time: 0:00:45
+Test epoch | Steps: 38 | Elapsed Time: 0:00:46
+Test epoch | Steps: 39 | Elapsed Time: 0:00:48
+Test epoch | Steps: 40 | Elapsed Time: 0:00:50
+Test epoch | Steps: 41 | Elapsed Time: 0:00:52
+Test epoch | Steps: 42 | Elapsed Time: 0:00:54
+Test epoch | Steps: 43 | Elapsed Time: 0:00:56
+Test epoch | Steps: 44 | Elapsed Time: 0:00:59
+Test epoch | Steps: 45 | Elapsed Time: 0:01:01
+Test epoch | Steps: 46 | Elapsed Time: 0:01:03
+Test epoch | Steps: 47 | Elapsed Time: 0:01:06
+Test epoch | Steps: 48 | Elapsed Time: 0:01:09
+Test epoch | Steps: 49 | Elapsed Time: 0:01:11
+Test epoch | Steps: 50 | Elapsed Time: 0:01:14
+Test epoch | Steps: 50 | Elapsed Time: 0:01:14
+Test on swiss_data/clips/test.csv - WER: 0.671790, CER: 0.454388, loss: 138.530258
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 50.435493
+ - wav: file://swiss_data/clips/17626.wav
+ - src: "ein konkreter zeitplan mit klar formulierten zielen für die berufliche wiedereingliederung von langzeitarbeitslosen personen wäre sehr sinnvoll und notwendig"
+ - res: "ein konkreter zeitplan mit klar formulierten zielen für die berufliche wiedereingliederung von langzeitarbeitslosen personen wäre sehr sinnvoll und notwendig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.007092, loss: 40.532265
+ - wav: file://swiss_data/clips/12461.wav
+ - src: "es liegt auf der hand dass einige bisher nicht anerkannte glaubensgemeinschaften ebenfalls einen wichtigen gesellschaftlichen beitrag leisten"
+ - res: "es liegt auf der hand dass einige bisher nicht anerkannte glaubensgemeinschaften ebenfalls einen wichtigen gesellschaftlichen beitrag leisten "
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 36.013481
+ - wav: file://swiss_data/clips/30841.wav
+ - src: "der letzte abschnitt aus der antwort des regierungsrates ist für uns überzeugend"
+ - res: "der letzte abschnitt aus der antwort des regierungsrates ist für uns überzeugend"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 34.528942
+ - wav: file://swiss_data/clips/23004.wav
+ - src: "im wissen um den fachkräftemangel ist diese haltung aber nicht nachvollziehbar"
+ - res: "im wissen um den fachkräftemangel ist diese haltung aber nicht nachvollziehbar"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 32.113796
+ - wav: file://swiss_data/clips/19548.wav
+ - src: "die finanzielle belastung und die lange vertragsdauer sind für uns wirklich problematisch"
+ - res: "die finanzielle belastung und die lange vertragsdauer sind für uns wirklich problematisch"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.703704, CER: 0.421965, loss: 165.594528
+ - wav: file://swiss_data/clips/28384.wav
+ - src: "die edu fraktion wird weitgehend der regierung folgen ausser beim punkt 1 dort werden wir die abschreibung bestreiten wie wir dies bereits in der novembersession getan haben"
+ - res: "die fraktion wird weitgehend der regierung folgende punkte werden abschreibung bestritten wiedervereinen"
+--------------------------------------------------------------------------------
+WER: 0.705882, CER: 0.511521, loss: 404.710907
+ - wav: file://swiss_data/clips/15376.wav
+ - src: "da ist es auch kein wunder dass praktisch jeder grossratsbeschluss und jedes gesetz mit einem referendum bekämpft wird in der hoffnung dass man das politische geschäft doch noch erfolgreich auf seine seite ziehen kann"
+ - res: "der beschluss dem referendum bekämpft wird in der hoffnung dass die politischen geschäfte nach bestimmung auf seine seite "
+--------------------------------------------------------------------------------
+WER: 0.705882, CER: 0.538462, loss: 127.435844
+ - wav: file://swiss_data/clips/34132.wav
+ - src: "der effizienz zu liebe kann man sagen kann es manchmal sinnvoll sein weil man so zeit spart"
+ - res: "der ein dass das ansinnen weil man zeit spart"
+--------------------------------------------------------------------------------
+WER: 0.705882, CER: 0.317829, loss: 118.505989
+ - wav: file://swiss_data/clips/19914.wav
+ - src: "ich bin vorstandsmitglied der genossenschaft srg bern freiburg wallis und fühle mich dadurch dem medienstandort bern verpflichtet"
+ - res: "die vorstandsmitglieder der genossenschaften ebenfalls und führen medienstandort bern verpflichtet"
+--------------------------------------------------------------------------------
+WER: 0.705882, CER: 0.524272, loss: 116.204887
+ - wav: file://swiss_data/clips/14276.wav
+ - src: "die motion die wir hier debattieren ist wichtiger als es den meisten von uns wahrscheinlich bewusst ist"
+ - res: "die motoren ist wichtiger als der einschliesst ist"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.066667, CER: 0.592000, loss: 320.657349
+ - wav: file://swiss_data/clips/8353.wav
+ - src: "dieses macht die rechtlichen regelungen schwammiger unvorhersehbarer diffuser und bringt eine inhaltliche schwächung mit sich"
+ - res: "es macht hier die rechtlichen regelungen schwanger und vorhersehbarer dieser und schwächt inhaltlich einfach nicht ausgeübt werden dass grundsätzlich in diesem"
+--------------------------------------------------------------------------------
+WER: 1.111111, CER: 0.836066, loss: 332.546143
+ - wav: file://swiss_data/clips/29842.wav
+ - src: "jetzt muss es wiederum auch in einen regionalen windrichtplan"
+ - res: "es muss sich wieder in den regionalen interplanetaren mit der mässigung weiter"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.244444, loss: 24.487196
+ - wav: file://swiss_data/clips/31942.wav
+ - src: "deshalb hier der kommissionsminderheitsantrag"
+ - res: "die der kommission minderheit antrag"
+--------------------------------------------------------------------------------
+WER: 1.333333, CER: 0.784091, loss: 313.714233
+ - wav: file://swiss_data/clips/9522.wav
+ - src: "andernfalls schiesst das ganze thema der kompetenzdelegation an gemeinden am ziel vorbei"
+ - res: "er wurde die leiche selbst ausweisen damit dass man in solchen festgelegt kompetenz der in gemeinden am ziel"
+--------------------------------------------------------------------------------
+WER: 1.750000, CER: 0.918033, loss: 223.657455
+ - wav: file://swiss_data/clips/11300.wav
+ - src: "dies schafft auch kontinuität und sicherheit im kulturbereich"
+ - res: "der kultur von vor der kulisse für sich der inhalt des gibt auch konische im kulturbereich"
+--------------------------------------------------------------------------------

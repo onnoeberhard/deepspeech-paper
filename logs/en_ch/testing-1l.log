@@ -1,0 +1,150 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-744888
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on swiss_data/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:05
+Test epoch | Steps: 2 | Elapsed Time: 0:00:06
+Test epoch | Steps: 3 | Elapsed Time: 0:00:07
+Test epoch | Steps: 4 | Elapsed Time: 0:00:07
+Test epoch | Steps: 5 | Elapsed Time: 0:00:08
+Test epoch | Steps: 6 | Elapsed Time: 0:00:08
+Test epoch | Steps: 7 | Elapsed Time: 0:00:09
+Test epoch | Steps: 8 | Elapsed Time: 0:00:10
+Test epoch | Steps: 9 | Elapsed Time: 0:00:11
+Test epoch | Steps: 10 | Elapsed Time: 0:00:11
+Test epoch | Steps: 11 | Elapsed Time: 0:00:12
+Test epoch | Steps: 12 | Elapsed Time: 0:00:13
+Test epoch | Steps: 13 | Elapsed Time: 0:00:14
+Test epoch | Steps: 14 | Elapsed Time: 0:00:14
+Test epoch | Steps: 15 | Elapsed Time: 0:00:15
+Test epoch | Steps: 16 | Elapsed Time: 0:00:17
+Test epoch | Steps: 17 | Elapsed Time: 0:00:18
+Test epoch | Steps: 18 | Elapsed Time: 0:00:19
+Test epoch | Steps: 19 | Elapsed Time: 0:00:19
+Test epoch | Steps: 20 | Elapsed Time: 0:00:21
+Test epoch | Steps: 21 | Elapsed Time: 0:00:22
+Test epoch | Steps: 22 | Elapsed Time: 0:00:23
+Test epoch | Steps: 23 | Elapsed Time: 0:00:24
+Test epoch | Steps: 24 | Elapsed Time: 0:00:26
+Test epoch | Steps: 25 | Elapsed Time: 0:00:27
+Test epoch | Steps: 26 | Elapsed Time: 0:00:29
+Test epoch | Steps: 27 | Elapsed Time: 0:00:30
+Test epoch | Steps: 28 | Elapsed Time: 0:00:31
+Test epoch | Steps: 29 | Elapsed Time: 0:00:33
+Test epoch | Steps: 30 | Elapsed Time: 0:00:34
+Test epoch | Steps: 31 | Elapsed Time: 0:00:36
+Test epoch | Steps: 32 | Elapsed Time: 0:00:37
+Test epoch | Steps: 33 | Elapsed Time: 0:00:39
+Test epoch | Steps: 34 | Elapsed Time: 0:00:41
+Test epoch | Steps: 35 | Elapsed Time: 0:00:42
+Test epoch | Steps: 36 | Elapsed Time: 0:00:44
+Test epoch | Steps: 37 | Elapsed Time: 0:00:46
+Test epoch | Steps: 38 | Elapsed Time: 0:00:48
+Test epoch | Steps: 39 | Elapsed Time: 0:00:50
+Test epoch | Steps: 40 | Elapsed Time: 0:00:52
+Test epoch | Steps: 41 | Elapsed Time: 0:00:54
+Test epoch | Steps: 42 | Elapsed Time: 0:00:56
+Test epoch | Steps: 43 | Elapsed Time: 0:00:58
+Test epoch | Steps: 44 | Elapsed Time: 0:01:00
+Test epoch | Steps: 45 | Elapsed Time: 0:01:03
+Test epoch | Steps: 46 | Elapsed Time: 0:01:05
+Test epoch | Steps: 47 | Elapsed Time: 0:01:08
+Test epoch | Steps: 48 | Elapsed Time: 0:01:11
+Test epoch | Steps: 49 | Elapsed Time: 0:01:13
+Test epoch | Steps: 50 | Elapsed Time: 0:01:16
+Test epoch | Steps: 50 | Elapsed Time: 0:01:16
+Test on swiss_data/clips/test.csv - WER: 0.692976, CER: 0.475369, loss: 141.553253
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 39.859276
+ - wav: file://swiss_data/clips/30841.wav
+ - src: "der letzte abschnitt aus der antwort des regierungsrates ist für uns überzeugend"
+ - res: "der letzte abschnitt aus der antwort des regierungsrates ist für uns überzeugend"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 22.430027
+ - wav: file://swiss_data/clips/18450.wav
+ - src: "die steigenden krankenkassenprämien bringen immer mehr menschen in wirtschaftliche nöte"
+ - res: "die steigenden krankenkassenprämien bringen immer mehr menschen in wirtschaftliche nöte"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 20.981630
+ - wav: file://swiss_data/clips/20109.wav
+ - src: "die partizipation der bevölkerung ist wichtig"
+ - res: "die partizipation der bevölkerung ist wichtig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 20.211756
+ - wav: file://swiss_data/clips/31647.wav
+ - src: "es geht um das wort verpflichtet"
+ - res: "es geht um das wort verpflichtet"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 17.601234
+ - wav: file://swiss_data/clips/18455.wav
+ - src: "das bringt uns nicht weiter"
+ - res: "das bringt uns nicht weiter"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.488372, loss: 58.154610
+ - wav: file://swiss_data/clips/11027.wav
+ - src: "dies sind alles sehr sehr wichtige faktoren"
+ - res: "in ganz ganz wichtige faktoren"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.279070, loss: 52.960667
+ - wav: file://swiss_data/clips/1422.wav
+ - src: "das lag in der kompetenz des regierungsrats"
+ - res: "diese kompetenz des regierungsrates"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.488372, loss: 41.839245
+ - wav: file://swiss_data/clips/29883.wav
+ - src: "am globalen problem änderte auch das nichts"
+ - res: "alle ändert das nichts"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.684211, loss: 41.155643
+ - wav: file://swiss_data/clips/5053.wav
+ - src: "für mich ist das die erste spardebatte"
+ - res: "es ist die art"
+--------------------------------------------------------------------------------
+WER: 0.714286, CER: 0.454545, loss: 40.604851
+ - wav: file://swiss_data/clips/7003.wav
+ - src: "auch auf diese petitionäre sollten wir hören"
+ - res: "auch auf der auf dieser binäre sollten wir"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 1.000000, loss: 18.624416
+ - wav: file://swiss_data/clips/16097.wav
+ - src: "zu punkt 1"
+ - res: ""
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.642857, loss: 17.158844
+ - wav: file://swiss_data/clips/35393.wav
+ - src: "stehen bleiben"
+ - res: "neben"
+--------------------------------------------------------------------------------
+WER: 1.125000, CER: 0.452055, loss: 86.415535
+ - wav: file://swiss_data/clips/25356.wav
+ - src: "nüchtern betrachtet geht es einfach darum doppelspurigkeiten abzuschaffen"
+ - res: "aber wenn man nicht den trachten der einfach das doppelseiten abzuschaffen"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.244444, loss: 23.250088
+ - wav: file://swiss_data/clips/31942.wav
+ - src: "deshalb hier der kommissionsminderheitsantrag"
+ - res: "die der kommission minderheits antrag"
+--------------------------------------------------------------------------------
+WER: 1.500000, CER: 0.806452, loss: 89.423637
+ - wav: file://swiss_data/clips/38141.wav
+ - src: "sharing economy begeistert mich"
+ - res: "sie kommen das begeistert war dass die"
+--------------------------------------------------------------------------------

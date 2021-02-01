@@ -1,0 +1,150 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-744888
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on swiss_data/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:20
+Test epoch | Steps: 2 | Elapsed Time: 0:00:21
+Test epoch | Steps: 3 | Elapsed Time: 0:00:22
+Test epoch | Steps: 4 | Elapsed Time: 0:00:22
+Test epoch | Steps: 5 | Elapsed Time: 0:00:22
+Test epoch | Steps: 6 | Elapsed Time: 0:00:23
+Test epoch | Steps: 7 | Elapsed Time: 0:00:24
+Test epoch | Steps: 8 | Elapsed Time: 0:00:24
+Test epoch | Steps: 9 | Elapsed Time: 0:00:25
+Test epoch | Steps: 10 | Elapsed Time: 0:00:26
+Test epoch | Steps: 11 | Elapsed Time: 0:00:27
+Test epoch | Steps: 12 | Elapsed Time: 0:00:28
+Test epoch | Steps: 13 | Elapsed Time: 0:00:29
+Test epoch | Steps: 14 | Elapsed Time: 0:00:30
+Test epoch | Steps: 15 | Elapsed Time: 0:00:31
+Test epoch | Steps: 16 | Elapsed Time: 0:00:33
+Test epoch | Steps: 17 | Elapsed Time: 0:00:34
+Test epoch | Steps: 18 | Elapsed Time: 0:00:35
+Test epoch | Steps: 19 | Elapsed Time: 0:00:36
+Test epoch | Steps: 20 | Elapsed Time: 0:00:37
+Test epoch | Steps: 21 | Elapsed Time: 0:00:39
+Test epoch | Steps: 22 | Elapsed Time: 0:00:40
+Test epoch | Steps: 23 | Elapsed Time: 0:00:41
+Test epoch | Steps: 24 | Elapsed Time: 0:00:43
+Test epoch | Steps: 25 | Elapsed Time: 0:00:44
+Test epoch | Steps: 26 | Elapsed Time: 0:00:46
+Test epoch | Steps: 27 | Elapsed Time: 0:00:47
+Test epoch | Steps: 28 | Elapsed Time: 0:00:49
+Test epoch | Steps: 29 | Elapsed Time: 0:00:50
+Test epoch | Steps: 30 | Elapsed Time: 0:00:52
+Test epoch | Steps: 31 | Elapsed Time: 0:00:53
+Test epoch | Steps: 32 | Elapsed Time: 0:00:55
+Test epoch | Steps: 33 | Elapsed Time: 0:00:56
+Test epoch | Steps: 34 | Elapsed Time: 0:00:58
+Test epoch | Steps: 35 | Elapsed Time: 0:01:00
+Test epoch | Steps: 36 | Elapsed Time: 0:01:01
+Test epoch | Steps: 37 | Elapsed Time: 0:01:03
+Test epoch | Steps: 38 | Elapsed Time: 0:01:05
+Test epoch | Steps: 39 | Elapsed Time: 0:01:07
+Test epoch | Steps: 40 | Elapsed Time: 0:01:09
+Test epoch | Steps: 41 | Elapsed Time: 0:01:11
+Test epoch | Steps: 42 | Elapsed Time: 0:01:13
+Test epoch | Steps: 43 | Elapsed Time: 0:01:15
+Test epoch | Steps: 44 | Elapsed Time: 0:01:17
+Test epoch | Steps: 45 | Elapsed Time: 0:01:20
+Test epoch | Steps: 46 | Elapsed Time: 0:01:22
+Test epoch | Steps: 47 | Elapsed Time: 0:01:25
+Test epoch | Steps: 48 | Elapsed Time: 0:01:27
+Test epoch | Steps: 49 | Elapsed Time: 0:01:30
+Test epoch | Steps: 50 | Elapsed Time: 0:01:33
+Test epoch | Steps: 50 | Elapsed Time: 0:01:33
+Test on swiss_data/clips/test.csv - WER: 0.761518, CER: 0.538045, loss: 152.931824
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 59.508629
+ - wav: file://swiss_data/clips/12461.wav
+ - src: "es liegt auf der hand dass einige bisher nicht anerkannte glaubensgemeinschaften ebenfalls einen wichtigen gesellschaftlichen beitrag leisten"
+ - res: "es liegt auf der hand dass einige bisher nicht anerkannte glaubensgemeinschaften ebenfalls einen wichtigen gesellschaftlichen beitrag leisten"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 30.367718
+ - wav: file://swiss_data/clips/20109.wav
+ - src: "die partizipation der bevölkerung ist wichtig"
+ - res: "die partizipation der bevölkerung ist wichtig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 19.457558
+ - wav: file://swiss_data/clips/27228.wav
+ - src: "es geht hier um ein sehr konkretes projekt"
+ - res: "es geht hier um ein sehr konkretes projekt"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 18.770538
+ - wav: file://swiss_data/clips/31647.wav
+ - src: "es geht um das wort verpflichtet"
+ - res: "es geht um das wort verpflichtet"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 18.444397
+ - wav: file://swiss_data/clips/18455.wav
+ - src: "das bringt uns nicht weiter"
+ - res: "das bringt uns nicht weiter"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.800000, CER: 0.446602, loss: 116.522820
+ - wav: file://swiss_data/clips/27154.wav
+ - src: "das bringt eine vereinfachung weniger bürokratie und deshalb bitte ich sie diese motion zu unterstützen"
+ - res: "es gibt eine einfache generation der bei die motion unterstützen"
+--------------------------------------------------------------------------------
+WER: 0.800000, CER: 0.585106, loss: 116.134430
+ - wav: file://swiss_data/clips/23858.wav
+ - src: "hier ist jeder abbau direkt und deutlich spürbar für die kundinnen und kunden die jugendlichen"
+ - res: "die baureihe für ihre kunden und jugendlichen"
+--------------------------------------------------------------------------------
+WER: 0.800000, CER: 0.562500, loss: 106.875160
+ - wav: file://swiss_data/clips/14004.wav
+ - src: "wenn sie fehlen bemängelt die politik dass keine aufgeführt sind"
+ - res: "die seepolitik eine aufgeführt"
+--------------------------------------------------------------------------------
+WER: 0.800000, CER: 0.555556, loss: 106.043800
+ - wav: file://swiss_data/clips/30918.wav
+ - src: "die einzelnen anträge werden wir nachher unter dem traktandum 25 noch näher erläutern und begründen"
+ - res: "die einträge werden in einem anderen begründen"
+--------------------------------------------------------------------------------
+WER: 0.800000, CER: 0.633333, loss: 104.699532
+ - wav: file://swiss_data/clips/14883.wav
+ - src: "aus diesem grund wird die glp die rückweisung klar bekämpfen"
+ - res: "die wirkweise bekämpfen"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.833333, loss: 19.633928
+ - wav: file://swiss_data/clips/31604.wav
+ - src: "er existiert"
+ - res: "die"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 0.900000, loss: 18.843779
+ - wav: file://swiss_data/clips/16097.wav
+ - src: "zu punkt 1"
+ - res: "in"
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 1.000000, loss: 14.612677
+ - wav: file://swiss_data/clips/28865.wav
+ - src: "das stimmt"
+ - res: ""
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.606061, loss: 54.636784
+ - wav: file://swiss_data/clips/15366.wav
+ - src: "der altersdurchschnitt im grossen"
+ - res: "die durch nicht den grossen rat"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.244444, loss: 20.181499
+ - wav: file://swiss_data/clips/31942.wav
+ - src: "deshalb hier der kommissionsminderheitsantrag"
+ - res: "die der kommission minderheit antrag"
+--------------------------------------------------------------------------------

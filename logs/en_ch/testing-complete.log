@@ -1,0 +1,150 @@
+I Loading best validating checkpoint from savecheckpoint/best_dev-12366
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: global_step
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+Testing model on swiss_data/clips/test.csv
+Test epoch | Steps: 0 | Elapsed Time: 0:00:00
+Test epoch | Steps: 1 | Elapsed Time: 0:00:17
+Test epoch | Steps: 2 | Elapsed Time: 0:00:17
+Test epoch | Steps: 3 | Elapsed Time: 0:00:18
+Test epoch | Steps: 4 | Elapsed Time: 0:00:18
+Test epoch | Steps: 5 | Elapsed Time: 0:00:19
+Test epoch | Steps: 6 | Elapsed Time: 0:00:20
+Test epoch | Steps: 7 | Elapsed Time: 0:00:21
+Test epoch | Steps: 8 | Elapsed Time: 0:00:21
+Test epoch | Steps: 9 | Elapsed Time: 0:00:22
+Test epoch | Steps: 10 | Elapsed Time: 0:00:23
+Test epoch | Steps: 11 | Elapsed Time: 0:00:24
+Test epoch | Steps: 12 | Elapsed Time: 0:00:25
+Test epoch | Steps: 13 | Elapsed Time: 0:00:26
+Test epoch | Steps: 14 | Elapsed Time: 0:00:27
+Test epoch | Steps: 15 | Elapsed Time: 0:00:28
+Test epoch | Steps: 16 | Elapsed Time: 0:00:30
+Test epoch | Steps: 17 | Elapsed Time: 0:00:31
+Test epoch | Steps: 18 | Elapsed Time: 0:00:32
+Test epoch | Steps: 19 | Elapsed Time: 0:00:33
+Test epoch | Steps: 20 | Elapsed Time: 0:00:35
+Test epoch | Steps: 21 | Elapsed Time: 0:00:36
+Test epoch | Steps: 22 | Elapsed Time: 0:00:37
+Test epoch | Steps: 23 | Elapsed Time: 0:00:39
+Test epoch | Steps: 24 | Elapsed Time: 0:00:41
+Test epoch | Steps: 25 | Elapsed Time: 0:00:42
+Test epoch | Steps: 26 | Elapsed Time: 0:00:43
+Test epoch | Steps: 27 | Elapsed Time: 0:00:45
+Test epoch | Steps: 28 | Elapsed Time: 0:00:47
+Test epoch | Steps: 29 | Elapsed Time: 0:00:48
+Test epoch | Steps: 30 | Elapsed Time: 0:00:50
+Test epoch | Steps: 31 | Elapsed Time: 0:00:52
+Test epoch | Steps: 32 | Elapsed Time: 0:00:53
+Test epoch | Steps: 33 | Elapsed Time: 0:00:55
+Test epoch | Steps: 34 | Elapsed Time: 0:00:57
+Test epoch | Steps: 35 | Elapsed Time: 0:00:59
+Test epoch | Steps: 36 | Elapsed Time: 0:01:01
+Test epoch | Steps: 37 | Elapsed Time: 0:01:03
+Test epoch | Steps: 38 | Elapsed Time: 0:01:05
+Test epoch | Steps: 39 | Elapsed Time: 0:01:07
+Test epoch | Steps: 40 | Elapsed Time: 0:01:10
+Test epoch | Steps: 41 | Elapsed Time: 0:01:12
+Test epoch | Steps: 42 | Elapsed Time: 0:01:14
+Test epoch | Steps: 43 | Elapsed Time: 0:01:17
+Test epoch | Steps: 44 | Elapsed Time: 0:01:20
+Test epoch | Steps: 45 | Elapsed Time: 0:01:23
+Test epoch | Steps: 46 | Elapsed Time: 0:01:26
+Test epoch | Steps: 47 | Elapsed Time: 0:01:30
+Test epoch | Steps: 48 | Elapsed Time: 0:01:33
+Test epoch | Steps: 49 | Elapsed Time: 0:01:36
+Test epoch | Steps: 50 | Elapsed Time: 0:01:40
+Test epoch | Steps: 50 | Elapsed Time: 0:01:40
+Test on swiss_data/clips/test.csv - WER: 0.741050, CER: 0.517893, loss: 152.834473
+--------------------------------------------------------------------------------
+Best WER: 
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 33.769131
+ - wav: file://swiss_data/clips/18450.wav
+ - src: "die steigenden krankenkassenprämien bringen immer mehr menschen in wirtschaftliche nöte"
+ - res: "die steigenden krankenkassenprämien bringen immer mehr menschen in wirtschaftliche nöte"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 27.446102
+ - wav: file://swiss_data/clips/20109.wav
+ - src: "die partizipation der bevölkerung ist wichtig"
+ - res: "die partizipation der bevölkerung ist wichtig"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 20.548737
+ - wav: file://swiss_data/clips/18455.wav
+ - src: "das bringt uns nicht weiter"
+ - res: "das bringt uns nicht weiter"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 18.680750
+ - wav: file://swiss_data/clips/31850.wav
+ - src: "in leichten begründeten fällen kann von einer kürzung abgesehen werden"
+ - res: "in leichten begründeten fällen kann von einer kürzung abgesehen werden"
+--------------------------------------------------------------------------------
+WER: 0.000000, CER: 0.000000, loss: 10.660493
+ - wav: file://swiss_data/clips/26246.wav
+ - src: "sie werden alle als marktkonform erachtet"
+ - res: "sie werden alle als marktkonform erachtet"
+--------------------------------------------------------------------------------
+Median WER: 
+--------------------------------------------------------------------------------
+WER: 0.777778, CER: 0.491803, loss: 130.985275
+ - wav: file://swiss_data/clips/28253.wav
+ - src: "diese stelle trägt viel zur bekämpfung von menschenhandel bei"
+ - res: "in der sehr viel zeit bekämpfung des menschenhandels eingesetzt"
+--------------------------------------------------------------------------------
+WER: 0.777778, CER: 0.617647, loss: 122.723656
+ - wav: file://swiss_data/clips/10279.wav
+ - src: "ich ärgere mich noch heute über den verkauf des viererfelds der ohne markt an die stadt verkauft wurde"
+ - res: "ich denke es hoheitliche stadt verkauft wurde"
+--------------------------------------------------------------------------------
+WER: 0.777778, CER: 0.586207, loss: 115.488213
+ - wav: file://swiss_data/clips/2818.wav
+ - src: "mein antrag damals in der ersten lesung auf rückweisung in die kommission war somit auch zweckmässig und zielführend"
+ - res: "die antragstellung in kommission ist somit auch weichen"
+--------------------------------------------------------------------------------
+WER: 0.777778, CER: 0.629630, loss: 100.267921
+ - wav: file://swiss_data/clips/8548.wav
+ - src: "hier geht es noch einmal um das wörtchen grundsätzlich"
+ - res: "wie geht es nun einsätze"
+--------------------------------------------------------------------------------
+WER: 0.777778, CER: 0.661290, loss: 95.239525
+ - wav: file://swiss_data/clips/35775.wav
+ - src: "für die ortsansässigen dies wäre im fischermätteli in burgdorf"
+ - res: "für die sandinisten und"
+--------------------------------------------------------------------------------
+Worst WER: 
+--------------------------------------------------------------------------------
+WER: 1.000000, CER: 1.000000, loss: 15.467937
+ - wav: file://swiss_data/clips/16097.wav
+ - src: "zu punkt 1"
+ - res: ""
+--------------------------------------------------------------------------------
+WER: 1.066667, CER: 0.477477, loss: 169.588943
+ - wav: file://swiss_data/clips/32721.wav
+ - src: "der zweite kritikpunkt ist die tauglichkeit der polizeidichte als kennzahl für vergleiche zwischen den kantonen"
+ - res: "die kritik tauglichkeit der polizei nicht als kennzeichen unter den kanton das wir und die kantone"
+--------------------------------------------------------------------------------
+WER: 1.111111, CER: 0.885246, loss: 342.834900
+ - wav: file://swiss_data/clips/29842.wav
+ - src: "jetzt muss es wiederum auch in einen regionalen windrichtplan"
+ - res: "die seidenen regionalen minderheiten gemacht und man mit den insignien"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.534247, loss: 118.271912
+ - wav: file://swiss_data/clips/25356.wav
+ - src: "nüchtern betrachtet geht es einfach darum doppelspurigkeiten abzuschaffen"
+ - res: "aber wenn man es nicht betrachtet einfach darauf gerieten aber zu schaffen"
+--------------------------------------------------------------------------------
+WER: 1.250000, CER: 0.314286, loss: 20.753473
+ - wav: file://swiss_data/clips/18511.wav
+ - src: "soweit mal einige grundsatzgedanken"
+ - res: "so wie man grundsatz gedanken"
+--------------------------------------------------------------------------------
